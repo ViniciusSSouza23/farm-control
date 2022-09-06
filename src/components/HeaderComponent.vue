@@ -1,5 +1,5 @@
 <template>
-  <nav class="header-view navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="header-view navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/"></router-link>
       <button
@@ -28,7 +28,7 @@
             <router-link class="nav-link" to="/">Vendas</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Vendas</router-link>
+            <router-link class="nav-link" to="/">Relatorios</router-link>
           </li>
         </ul>
       </div>
