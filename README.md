@@ -8,7 +8,7 @@ O projeto será possuirá inicialmente as seguintes features:
 [] - Cadastro e administração de espaços da fazenda;
 [] - Venda de animais para abates
 [] - Relatorios de produção de matrizes
-[] - Relatorio de ganho de peso
+[] - Relatorio de lucros dos animais
 ```
 
 ## Project setup

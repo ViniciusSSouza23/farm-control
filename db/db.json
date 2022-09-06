@@ -1,0 +1,15 @@
+{
+  "matrizes":{
+    "machos":[],
+    "femeas":[]
+  },
+  "animais":{
+    "machos":[],
+    "femeas":[]
+  },
+  "pasto":{
+    "disponiveis":[],
+    "ocupados":[]
+  },
+  "vendas":[]
+}
