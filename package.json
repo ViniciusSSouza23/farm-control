@@ -9,11 +9,13 @@
     "backend": "json-server --watch db/db.json"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.0",
     "core-js": "^3.8.3",
     "db-json": "^0.1.0",
     "vue": "^3.2.13",
     "vue-awesome": "^4.5.0",
+    "vue-loading-skeleton": "^1.1.9",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
   },
