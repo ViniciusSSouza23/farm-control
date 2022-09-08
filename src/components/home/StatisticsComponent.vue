@@ -1,27 +1,27 @@
 <template>
   <section class="statistics-component-view">
     <div class="custom-card p-4" v-if="statistics">
-      <div class="d-flex pb-3">
-        <h6>Matrizes:</h6>
-        <p></p>
-      </div>
-      <div class="d-flex pb-3">
-        <h6>Filhotes:</h6>
-        <p></p>
-      </div>
-      <div class="pb-3 d-flex">
-        <h6>Pastos Disponiveis:</h6>
-        <p></p>
-      </div>
+        <div class="d-flex pb-3">
+          <h6>Matrizes:</h6>
+          <p>{{ statistics.matrizes }}</p>
+        </div>
+        <div class="d-flex pb-3">
+          <h6>Filhotes:</h6>
+          <p>{{ statistics.filhotes }}</p>
+        </div>
+        <div class="pb-3 d-flex">
+          <h6>Pastos Disponiveis:</h6>
+          <p>{{ statistics.pastos_disponiveis }}</p>
+        </div>
 
-      <div class="d-flex pb-3">
-        <h6>Pastos Ocupados:</h6>
-        <p></p>
-      </div>
-      <div class="d-flex pb-3">
-        <h6>Lucros com Vendas:</h6>
-        <p></p>
-      </div>
+        <div class="d-flex pb-3">
+          <h6>Pastos Ocupados:</h6>
+          <p>{{ statistics.pastos_ocupados }}</p>
+        </div>
+        <div class="d-flex pb-3">
+          <h6>Valor total de Vendas:</h6>
+          <p>{{ statistics.total_vendas }}</p>
+        </div>
     </div>
     <div class="py-5 text-center" v-else>
       <em>Nenhum dado cadastrado</em>
