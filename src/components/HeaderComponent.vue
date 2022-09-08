@@ -19,7 +19,7 @@
             <router-link class="nav-link" aria-current="page" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Matrizes</router-link>
+            <router-link class="nav-link" to="/matrizes">Matrizes</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/">Filhotes</router-link>
