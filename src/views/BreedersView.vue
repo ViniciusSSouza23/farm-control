@@ -20,10 +20,15 @@
         </div>
       </div>
     </div>
+    <el-dialog width="45%" align-center v-model="registerModal"> 
+      <register-component/>
+    </el-dialog>
   </div>
 </template>
 
 <script>
+import { ElDialog } from "element-plus";
+import RegisterComponent from "@/components/breeders/RegisterComponent.vue";
 export default {
   data() {
     return {
@@ -31,6 +36,10 @@ export default {
       deleteModal: false,
       searchmodal: false,
     };
+  },
+  components: {
+    ElDialog,
+    RegisterComponent
   },
 };
 </script>
