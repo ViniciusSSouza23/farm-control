@@ -20,8 +20,17 @@
         />
       </div>
       <div class="d-flex flex-column w-50 form-group">
-        <label for="">Brinco da Mãe</label>
-        <input type="text" placeholder="Digite o numero da Mãe do animal" />
+        <label for="idMae">Brinco da Mãe</label>
+        <input
+          id="idMae"
+          class="form-control"
+          type="text"
+          placeholder="Digite o numero da Mãe do animal"
+        />
+      </div>
+      <div class="d-flex flex-column w-50 form-group">
+        <label for="Data">Data de Nascimento</label>
+        <input class="form-control" id="Data" type="date">
       </div>
     </form>
   </div>
