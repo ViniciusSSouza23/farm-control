@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <el-dialog width="45%" align-center v-model="registerModal"> 
+    <el-dialog width="30%" align-center v-model="registerModal"> 
       <register-component/>
     </el-dialog>
   </div>
@@ -52,5 +52,6 @@ export default {
   .card {
     max-width: 40%;
   }
+ 
 }
 </style>
