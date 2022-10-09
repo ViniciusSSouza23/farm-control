@@ -25,7 +25,7 @@
             <router-link class="nav-link" to="/">Filhotes</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Vendas</router-link>
+            <router-link class="nav-link" to="/vendas">Vendas</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/">Relatorios</router-link>
